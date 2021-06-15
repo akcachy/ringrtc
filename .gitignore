@@ -13,3 +13,4 @@ src/jar.list
 .project
 .classpath
 org.eclipse.buildship.core.prefs
+.github
