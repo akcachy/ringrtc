@@ -93,7 +93,7 @@ pub fn create_peer_connection(
 
     // construct JNI OwnedPeerConnection object
     let jni_owned_pc = unsafe {
-        Java_org_webrtc_PeerConnectionFactory_nativeCreatePeerConnection(
+        Java_org_cachy_PeerConnectionFactory_nativeCreatePeerConnection(
             env.clone(),
             JClass::from(JObject::null()),
             peer_connection_factory,

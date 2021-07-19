@@ -8,16 +8,16 @@ package org.signal.ringrtc;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.webrtc.AudioSource;
-import org.webrtc.AudioTrack;
-import org.webrtc.NativePeerConnectionFactory;
-import org.webrtc.PeerConnection;
+import org.cachy.AudioSource;
+import org.cachy.AudioTrack;
+import org.cachy.NativePeerConnectionFactory;
+import org.cachy.PeerConnection;
 
 /**
  *
  * Represents the connection to a remote peer
  *
- * <p> This class inherits from org.webrtc.PeerConnection and
+ * <p> This class inherits from org.cachy.PeerConnection and
  * encapsulates the lifecycle of establishing, creating, and tearing
  * down a connection.
  *

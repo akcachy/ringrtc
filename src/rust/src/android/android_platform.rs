@@ -827,7 +827,7 @@ impl Platform for AndroidPlatform {
 
         const CONNECT_MEDIA_METHOD: &str = "onConnectMedia";
         const CONNECT_MEDIA_SIG: &str =
-            "(Lorg/signal/ringrtc/CallManager$CallContext;Lorg/webrtc/MediaStream;)V";
+            "(Lorg/signal/ringrtc/CallManager$CallContext;Lorg/cachy/MediaStream;)V";
 
         let args = [
             jni_call_context.as_obj().into(),

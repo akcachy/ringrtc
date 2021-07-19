@@ -5,9 +5,9 @@
 
 package org.signal.ringrtc;
 
-import org.webrtc.Logging.Severity;
+import org.cachy.Logging.Severity;
 
-public final class WebRtcLogger implements org.webrtc.Loggable {
+public final class WebRtcLogger implements org.cachy.Loggable {
 
   private static final String TAG = Log.class.getSimpleName();
 

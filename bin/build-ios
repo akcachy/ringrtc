@@ -174,8 +174,8 @@ then
     s.version  = "0.0.1"
     s.summary  = "Intended only for testing SignalRingRTC within this repository"
     s.license  = "BSD"
-    s.homepage = "https://github.com/signalapp/webrtc"
-    s.source   = { git: "https://github.com/signalapp/webrtc.git" }
+    s.homepage = "https://github.com/akcachy/signal-webrtc"
+    s.source   = { git: "https://github.com/akcachy/signal-webrtc.git" }
     s.author   = { "iOS Team": "ios@signal.org" }
 
     s.platform = :ios, "11.0"

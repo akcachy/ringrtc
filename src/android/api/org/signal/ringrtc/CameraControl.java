@@ -8,7 +8,7 @@ package org.signal.ringrtc;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.webrtc.CapturerObserver;
+import org.cachy.CapturerObserver;
 
 /**
  *
